@@ -48,38 +48,6 @@ body{
     margin-bottom: 1%;
 }
 
-.navegador{    
-    display: flex;
-    background-color: rgb(252, 251, 250);
-    height: 1fr;
-    width: 35%;        
-}
-
-header nav ul li{
-margin-right: 2%;
-    
-}
-
-.menu{
-   display: flex;
-   list-style-type:none;        
-   width: 100%;  
-   flex-wrap: wrap;    
-} 
-
-
-.menu__a{
-    background-color: #fafcf9;
-    text-decoration: none;
-    border-radius: 10%;
-    color: black;      
-        
-} 
-
-.menu__a:hover{
-   background-color:#9af883;
-}
-
 .main__index{
     display: grid;
     grid-area: main__index; 
