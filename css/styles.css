@@ -344,15 +344,14 @@ body{
 
 
            .header{
-            display: flex;
+            display: flex;           
             grid-area: header;     
             position: sticky;   
             top: 0%;
-            z-index: 2; 
-            align-items: flex-end;   
-            flex-wrap: wrap;
-            justify-content: space-around;
+            z-index: 2;               
+            flex-wrap: wrap;            
             background-color: #ffffff;
+            
          }
          
          .logo{
@@ -368,26 +367,6 @@ body{
              
          }
          
-         .navegador{    
-             display: flex;
-             background-color: rgb(252, 251, 250);
-             height: 1fr;
-             width: 100%;     
-             
-         }
-         
-         header nav ul li{
-         margin-right: 1%;
-             
-         }
-         
-         .menu{
-            display: flex;
-            list-style-type:none;        
-            width: 100%;  
-            justify-content: center;
-             
-         } 
          
          
        
@@ -433,26 +412,7 @@ body{
              
          }
          
-         .navegador{    
-             display: flex;
-             background-color: rgb(252, 251, 250);
-             height: 1fr;
-             width: 100%;     
-             
-         }
-         
-         header nav ul li{
-         margin-right: 1%;
-             
-         }
-         
-         .menu{
-            display: flex;
-            list-style-type:none;        
-            width: 100%;  
-            justify-content: center;
-             
-         } 
+        
          
          
        
