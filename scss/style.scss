@@ -1,5 +1,7 @@
-@import "utilities/variables";
-
+@import "base/variables";
+@import "base/mapas";
+@import "base/listas";
+@import "base/extend"
 
 body{     
     display: grid;     
