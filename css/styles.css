@@ -2,7 +2,9 @@ body {
   display: grid;
   grid-template-columns: 25% 40% 35%;
   background-color: #fdfdfd;
-  grid-template-areas: "header header header" "main__index main__index main__index" "footer footer footer"; }
+  grid-template-areas: "header header header"
+ "main__index main__index main__index"
+ "footer footer footer"; }
   body .header {
     display: flex;
     grid-area: header;
@@ -20,26 +22,6 @@ body {
       margin-right: 0%; }
     body .header .img_header {
       margin-bottom: 1%; }
-    body .header .navegador {
-      display: flex;
-      background-color: #faf4f4;
-      height: 1fr;
-      width: 35%; }
-      body .header .navegador .menu {
-        display: flex;
-        list-style-type: none;
-        width: 100%;
-        flex-wrap: wrap; }
-        body .header .navegador .menu header nav ul li {
-          margin-right: 2%; }
-        body .header .navegador .menu .menu__a {
-          background-color: white;
-          text-decoration: none;
-          border-radius: 10%;
-          color: black;
-          padding-right: 0.55rem; }
-        body .header .navegador .menu .menu__a:hover {
-          background-color: #9af883; }
   body .main__index {
     display: grid;
     grid-area: main__index;
@@ -57,7 +39,8 @@ body {
       height: 85%;
       font-size: 1.5rem;
       color: #686060;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode',  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+ 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       flex-wrap: wrap; }
     body .main__index .main__video {
       max-width: 80%;
@@ -88,3 +71,179 @@ body {
         margin-top: 3rem; }
     body .footer .footer__pie {
       grid-area: footer__pie; }
+
+                                                                   /*secciones*/
+                                                                   
+/*contacto*/
+.body_contacto {
+  grid-template-areas: "header header header"
+ "main_contacto main_contacto main_contacto"
+ "footer footer footer"; }
+  .body_contacto .main_contacto {
+    grid-area: main_contacto;
+    display: grid;
+    background-color: #fdfdfc;
+    border: solid 0rem 0.1rem #c1c788;
+    justify-items: center;
+    height: 100%; }
+    .body_contacto .main_contacto .h2_contacto {
+      background-color: #9af883;
+      padding-bottom: 0rem;
+      margin-top: 1%;
+      padding-top: 0rem;
+      text-align: center;
+      width: 100%;
+      height: 80%;
+      flex-wrap: wrap; }
+    .body_contacto .main_contacto .lista_contacto {
+      display: grid;
+      padding-top: 0px;
+      margin-top: 4%;
+      margin-bottom: 4%;
+      margin-left: 10%;
+      font-size: 1.3rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+      .body_contacto .main_contacto .lista_contacto .lista__contacto--whatsaap {
+        list-style-type: none; }
+
+/*nosotros*/
+.body_nosotros {
+  grid-template-areas: "header header header"
+ "main_institucional main_institucional main_institucional"
+ "footer footer footer "; }
+  .body_nosotros .main_nosotros {
+    grid-area: main_institucional;
+    display: grid;
+    background-color: #fdfdfc;
+    border: solid 0rem 0.1rem #c1c788;
+    justify-items: center;
+    height: 100%;
+    background-image: url(/img/lojo.jpg); }
+    .body_nosotros .main_nosotros .h2_nosotros {
+      background-color: #9af883;
+      padding-bottom: 0rem;
+      margin-top: 1%;
+      padding-top: 0rem;
+      text-align: center;
+      width: 100%;
+      height: 85%;
+      flex-wrap: wrap; }
+    .body_nosotros .main_nosotros .text_nosotros {
+      margin: 3rem 3rem;
+      font-size: 1.3rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+/*galeria*/
+.body_galeria {
+  grid-template-areas: "header header header"
+ "main_publicaciones main_publicaciones main_publicaciones"
+ "footer footer footer "; }
+  .body_galeria .main_galeria {
+    grid-area: main_publicaciones;
+    display: grid;
+    background-color: #fdfdfc;
+    border: solid 0rem 0.1rem #c1c788;
+    height: 100%; }
+    .body_galeria .main_galeria .h2_galeria {
+      background-color: #9af883;
+      padding-bottom: 0rem;
+      margin-top: 1%;
+      text-align: center;
+      width: 100%;
+      height: 80%;
+      flex-wrap: wrap; }
+    .body_galeria .main_galeria .papa {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 2%; }
+      .body_galeria .main_galeria .papa .galeria_videos {
+        max-width: 100%;
+        max-height: 100%; }
+
+/*servicios*/
+.body_servicios {
+  grid-template-areas: "header header header"
+ "main_servicios main_servicios main_servicios"
+ "footer footer footer "; }
+  .body_servicios .main_servicios {
+    grid-area: main_servicios;
+    display: grid;
+    background-color: #fdfdfc;
+    border: solid 0rem 0.1rem #c1c788;
+    justify-items: center;
+    height: 100%; }
+    .body_servicios .main_servicios .h2_servicios {
+      background-color: #9af883;
+      padding-bottom: 0rem;
+      margin-top: 1%;
+      padding-top: 0%;
+      text-align: center;
+      width: 100%;
+      height: 80%;
+      flex-wrap: wrap; }
+    .body_servicios .main_servicios .ul_servicios {
+      padding-left: 3rem;
+      padding-top: 2rem;
+      font-weight: bold;
+      margin-bottom: 5rem;
+      font-size: 1.1rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+ 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    .body_servicios .main_servicios .img_servicios {
+      box-shadow: 2px 2px 6px black;
+      width: 90%; }
+
+/*media queries Version Celulares hasta 600 px*/
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #fdfbfb;
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #fdfdfd;
+    margin-left: 0%;
+    margin-right: 0%; }
+    body .header {
+      display: flex;
+      grid-area: header;
+      position: sticky;
+      top: 0%;
+      z-index: 2;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: #ffffff; }
+      body .header .logo {
+        display: flex;
+        background-color: #fdfdfb;
+        margin-left: 3%;
+        margin-right: 0%; }
+      body .header .img_header {
+        display: none; } }
+
+/*media queries Version Tablets de 600 a 1200 px*/
+@media screen and (max-width: 1200px) {
+  body {
+    background-color: #fdfbfb;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fdfdfd;
+    margin-left: 0%;
+    margin-right: 0%; }
+    body .header {
+      display: flex;
+      grid-area: header;
+      position: sticky;
+      top: 0%;
+      z-index: 2;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: #ffffff; }
+      body .header .logo {
+        display: flex;
+        background-color: #fdfdfb;
+        margin-left: 3%;
+        margin-right: 0%; }
+      body .header .img_header {
+        margin-bottom: 0.5%; } }
