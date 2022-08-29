@@ -1,4 +1,6 @@
-@mixin box-model{
-    background-color: azure;
-    box-shadow: 1pz 2px 3px;
+
+
+@mixin medidas($width, $height){
+    width: $width;
+    height: $height;
 }

@@ -1,17 +1,19 @@
+body .header {
+  display: flex;
+  grid-area: header;
+  position: sticky;
+  top: 0%;
+  z-index: 2;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
 body {
   display: grid;
   grid-template-columns: 25% 40% 35%;
-  background-color: #fdfdfd;
+  background-color: white;
   grid-template-areas: "header header header" "main__index main__index main__index" "footer footer footer"; }
   body .header {
-    display: flex;
-    grid-area: header;
-    position: sticky;
-    top: 0%;
-    z-index: 2;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    justify-content: space-around;
     background-color: white; }
     body .header .logo {
       display: flex;
@@ -36,7 +38,7 @@ body {
       width: 100%;
       height: 85%;
       font-size: 1.5rem;
-      color: #686060;
+      color: grey;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode',  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       flex-wrap: wrap; }
     body .main__index .main__video {
@@ -118,7 +120,7 @@ body {
       padding-top: 0rem;
       text-align: center;
       width: 100%;
-      height: 85%;
+      height: 80%;
       flex-wrap: wrap; }
     .body_nosotros .main_nosotros .text_nosotros {
       margin: 3rem 3rem;
