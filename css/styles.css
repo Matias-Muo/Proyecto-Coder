@@ -12,8 +12,11 @@ body {
   display: grid;
   grid-template-columns: 25% 40% 35%;
   background-color: white;
-  grid-template-areas: "header header header" "main__index main__index main__index" "footer footer footer"; }
+  grid-template-areas: "header header header"
+ "main__index main__index main__index"
+ "footer footer footer"; }
   body .header {
+    display: flex;
     background-color: white; }
     body .header .logo {
       display: flex;
@@ -39,7 +42,8 @@ body {
       height: 85%;
       font-size: 1.5rem;
       color: grey;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode',  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+ 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       flex-wrap: wrap; }
     body .main__index .main__video {
       max-width: 80%;
@@ -74,7 +78,9 @@ body {
 /*secciones*/
 /*contacto*/
 .body_contacto {
-  grid-template-areas: "header header header" "main_contacto main_contacto main_contacto" "footer footer footer"; }
+  grid-template-areas: "header header header"
+ "main_contacto main_contacto main_contacto"
+ "footer footer footer"; }
   .body_contacto .main_contacto {
     grid-area: main_contacto;
     display: grid;
@@ -104,7 +110,9 @@ body {
 
 /*nosotros*/
 .body_nosotros {
-  grid-template-areas: "header header header" "main_institucional main_institucional main_institucional" "footer footer footer "; }
+  grid-template-areas: "header header header"
+ "main_institucional main_institucional main_institucional"
+ "footer footer footer "; }
   .body_nosotros .main_nosotros {
     grid-area: main_institucional;
     display: grid;
@@ -129,7 +137,9 @@ body {
 
 /*galeria*/
 .body_galeria {
-  grid-template-areas: "header header header" "main_publicaciones main_publicaciones main_publicaciones" "footer footer footer "; }
+  grid-template-areas: "header header header"
+ "main_publicaciones main_publicaciones main_publicaciones"
+ "footer footer footer "; }
   .body_galeria .main_galeria {
     grid-area: main_publicaciones;
     display: grid;
@@ -155,7 +165,9 @@ body {
 
 /*servicios*/
 .body_servicios {
-  grid-template-areas: "header header header" "main_servicios main_servicios main_servicios" "footer footer footer "; }
+  grid-template-areas: "header header header"
+ "main_servicios main_servicios main_servicios"
+ "footer footer footer "; }
   .body_servicios .main_servicios {
     grid-area: main_servicios;
     display: grid;
@@ -178,7 +190,8 @@ body {
       font-weight: bold;
       margin-bottom: 5rem;
       font-size: 1.1rem;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode',  'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+ 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
     .body_servicios .main_servicios .img_servicios {
       box-shadow: 2px 2px 6px black;
       width: 90%; }
