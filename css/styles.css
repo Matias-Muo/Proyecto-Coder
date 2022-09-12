@@ -65,8 +65,7 @@ body {
     margin-top: 1%;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    width: 100%;
-    background-image: url(../img/ekuele2.png); }
+    width: 100%; }
     body .footer .footer__accesos {
       display: flex;
       grid-area: footer__accesos;
