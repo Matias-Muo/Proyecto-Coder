@@ -1,5 +1,5 @@
 Swal.fire({
-    title: 'BIENVENIDO A LA CASA DE IFÁ',
+    title: 'BIENVENIDOS A LA CASA DE IFÁ',
     text: 'INGRESAR',
     imageUrl: './img/ifakunle.jpg',
     imageWidth: 400,
