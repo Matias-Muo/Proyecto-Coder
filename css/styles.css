@@ -65,7 +65,11 @@ body {
       border-radius: 1%;
       margin-top: 3%; }
     body .main__index .index_conten {
-      margin: 3rem; }
+      margin: 3rem;
+      text-align: center; }
+      body .main__index .index_conten .footer-redes__enlaces- {
+        width: 15%;
+        margin: 5%; }
   body .footer {
     grid-area: footer;
     background-color: #f8f8f7;
@@ -270,7 +274,10 @@ body {
       max-width: 95%;
       max-height: 100%;
       border-radius: 1%;
-      margin-top: 3%; } }
+      margin-top: 3%; }
+    body .main__index .index_conten .footer-redes__enlaces- {
+      width: 40%;
+      margin: 4%; } }
 
 /*media queries Version Tablets de 600 a 1200 px*/
 @media screen and (max-width: 1200px) {

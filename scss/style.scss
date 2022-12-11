@@ -87,6 +87,14 @@ body{
 
         .index_conten{
             margin: 3rem;
+            text-align: center;
+
+            .footer-redes__enlaces-{
+                width: 15%;
+                margin: 5%;
+                
+            }
+
         }
 
               
@@ -449,6 +457,16 @@ body{
                     border-radius: 1%;
                     margin-top: 3%;
 
+                }
+
+                .index_conten{
+                    
+        
+                    .footer-redes__enlaces-{
+                        width: 40%;
+                        margin: 4%;
+                    }
+        
                 }
 
             }
