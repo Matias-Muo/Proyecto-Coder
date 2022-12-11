@@ -265,7 +265,12 @@ body {
         margin-left: 3%;
         margin-right: 0%; }
       body .header .img_header {
-        display: none; } }
+        display: none; }
+    body .main__index .main__video {
+      max-width: 95%;
+      max-height: 100%;
+      border-radius: 1%;
+      margin-top: 3%; } }
 
 /*media queries Version Tablets de 600 a 1200 px*/
 @media screen and (max-width: 1200px) {
